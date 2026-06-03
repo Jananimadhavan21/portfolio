@@ -1,0 +1,429 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:#081b29;
+    color:white;
+    overflow-x:hidden;
+}
+
+.nav{
+    width:100%;
+    height:70px;
+    background:#051129;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:700;
+}
+
+.menu{
+    display:flex;
+    gap:35px;
+    list-style:none;
+}
+
+.menu >li >a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.menu >li >a:hover{
+    color:cyan;
+}
+
+.hero-section{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+}
+
+.hero-content{
+    width:50%;
+}
+
+.hero-content >h3{
+    font-size:35px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.hero-content >h1{
+    font-size:70px;
+    font-weight:800;
+    margin-bottom:10px;
+}
+
+.hero-content >span{
+    color:cyan;
+}
+
+.hero-content >p{
+    font-size:18px;
+    line-height:1.8;
+    margin-top:20px;
+    width:90%;
+}
+
+.img{
+    width:40%;
+    display:flex;
+    justify-content:center;
+}
+
+.img>img{
+    width:420px;
+    height:420px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid cyan;
+    box-shadow:
+    0 0 50px cyan;
+}
+.about-section{
+    width:100%;
+    min-height:100vh;
+    background:#081b29;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+    gap:180px;  
+    color:white;
+}
+
+.about-img{
+    width:40%;
+    display:flex;
+    justify-content:center;
+}
+
+.about-img img{
+    width:380px;
+    height:380px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid cyan;
+    box-shadow:
+    0 0 50px cyan;
+
+}
+
+.about-section{
+    margin-top:100px;
+}
+
+.about-content{
+    width:50%;
+}
+
+.about-content >h1{
+    font-size:65px;
+    margin-bottom:10px;
+}
+
+.about-content >h1{
+    font-size:40px;
+}
+
+.about-content >h2{
+    font-size:28px;
+}
+
+.about-content >p{
+    font-size:16px;   
+    line-height:1.8;
+    color:#dcdcdc;
+    margin-bottom:35px;
+}
+
+.about-content button{
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:cyan;
+    color:#081b29;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+}
+.about-content button:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+.skills-section{
+    width:100%;
+    min-height:100vh;
+    background:#081b29;
+    color:white;
+    padding:80px 8%;
+    margin-top: 60px;
+}
+
+.skills-title{
+    text-align:center;
+    font-size:35px;
+    margin-bottom:50px;
+}
+
+.skills-title >span{
+    color:cyan;
+}
+
+.skills-container{
+    display:flex;
+    justify-content:space-between;
+    gap:100px;
+}
+
+.technical-skills,
+.professional-skills{
+    width:40%;
+}
+
+.technical-skills >h2,
+.professional-skills >h2{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:30px;
+    text-decoration:underline;
+}
+
+.skill{
+    margin-bottom:45px;
+}
+
+.skill >p{
+    margin-bottom:10px;
+    font-size:20px;
+}
+
+.skill-bar{
+    width:100%;
+    height:10px;
+    background:black;
+    border-radius:10px;
+}
+
+.skill-fill{
+    height:100%;
+    background:cyan;
+    border-radius:10px;
+    position:relative;
+}
+
+.skill-fill >span{
+    position:absolute;
+    right:0;
+    top:-35px;
+    font-size:14px;
+}
+
+.html{
+    width:90%;
+}
+
+.css{
+    width:80%;
+}
+
+.js{
+    width:85%;
+}
+
+.java{
+    width:90%;
+}
+
+.circle-container{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.circle-box{
+    width:180px;
+    text-align:center;
+}
+
+.circle{
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    border:8px solid cyan;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:20px;
+    font-weight:bold;
+
+    box-shadow:
+    0 0 15px cyan;
+}
+
+.circle-box >p{
+    margin-top:15px;
+    font-size:20px;
+}
+.project-section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.project-section h1{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.project-section span{
+    color:#0ef;
+}
+
+.project-card{
+    max-width:700px;
+    margin:auto;
+    padding:30px;
+    border:2px solid #0ef;
+    border-radius:15px;
+}
+
+.project-card h2{
+    margin-bottom:15px;
+}
+
+.project-card a{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#0ef;
+    color:#000;
+    text-decoration:none;
+    border-radius:5px;
+}
+.contact-section{
+    margin-top:100px;
+}
+
+.contact-section{
+    width:100%;
+    min-height:100vh;
+    background:#081b29;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+    gap:80px;
+    color:white;
+}
+
+.contact-left{
+    width:45%;
+}
+
+.contact-left >h1{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.contact-left >h1 >span{
+    color:cyan;
+}
+
+.contact-left >h2{
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.contact-left >p{
+    font-size:17px;
+    line-height:1.8;
+    color:#dcdcdc;
+}
+
+.contact-details{
+    margin-top:25px;
+}
+
+.contact-details >p{
+    margin-bottom:12px;
+    color:cyan;
+}
+
+.social-icons{
+    margin-top:35px;
+    display:flex;
+    gap:20px;
+}
+
+.social-icons >a{
+    width:45px;
+    height:45px;
+    border:2px solid cyan;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:cyan;
+    font-size:18px;
+
+    box-shadow:0 0 10px cyan;
+}
+
+.contact-right{
+    width:50%;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+form input,
+form textarea{
+    width:100%;
+    padding:18px;
+    border:none;
+    outline:none;
+    background:#555;
+    color:white;
+    border-radius:8px;
+    font-size:16px;
+}
+
+form textarea{
+    height:150px;
+    resize:none;
+}
+
+form button{
+    padding:16px;
+    border:none;
+    border-radius:30px;
+    background:cyan;
+    color:#081b29;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+}
+  
+html{
+    scroll-behavior: smooth;
+}
